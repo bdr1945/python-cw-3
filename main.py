@@ -1,5 +1,5 @@
 # write your code here
-fav_animals = {"dog", "cat", "monkey", "rabbit"}
+fav_animals = ["dog", "cat", "monkey", "rabbit"]
 print(fav_animals)
 print(fav_animals[3])
 fav_animals.remove("monkey")
@@ -10,4 +10,6 @@ for animal in fav_animals:
 numbers = [5,4,3,2,1]
 numbers_sum = 0
 for num in numbers:
-    numbers_sum.append(num + numbers_sum)   
+    numbers_sum+= num
+
+print(numbers_sum)   
